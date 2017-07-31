@@ -1,0 +1,190 @@
+.animate{
+    width: 100%;
+    height: 963px;
+    background: url(../image/animate-1.jpg) repeat;
+    overflow: hidden;
+}
+.animate .animate-wrap{
+    width: 1000px;
+    margin:0 auto;
+}
+.animate .animate-wrap .animate-top{
+    overflow: hidden;
+}
+.animate .animate-wrap .animate-top .top-left{
+    float: left;
+    margin-top: 145px;
+    width: 424px;
+    position: relative;
+}
+.animate .animate-wrap .animate-top .top-left p{
+    color: #f76464;
+    line-height: 21px;
+    margin: 24px 0 15px 0;
+}
+.animate .animate-wrap .animate-top .top-right{
+    float: right;
+    width: 575px;
+    height: 520px;
+    position: relative;
+}
+.animate .animate-wrap .animate-top .top-right img{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 552px;
+    height: 483px;
+    transition: 1s;
+}
+
+.animate1{
+    background: url(../image/animate-6.png) repeat;
+    width: 100%;
+    padding-bottom: 60px;
+}
+.animate1 .animate-container{
+    width: 1000px;
+    margin: 0 auto;
+    background: url(../image/animate-7.jpg) top center no-repeat;
+    padding-top: 70px;
+}
+.animate1 .animate-container .an-title{
+    height: 171px;
+    margin-top: 50px;
+}
+.animate1 .animate-container .an-title .an-title-c{
+    background: url(../image/animate-8.png) no-repeat;
+    width: 378px;
+    height: 112px;
+    margin:0 auto;
+}
+.animate1 .animate-container .an-title .an-title-c ul{
+    margin-left:103px;
+}
+.animate1 .animate-container .an-title .an-title-c ul li{
+    float: left;
+    width: 60px;
+    position: relative;
+    color: #000;
+    text-align: center;
+    padding-top: 107px;
+    line-height: 20px;
+}
+.animate1 .animate-container .an-title .an-title-c ul .cur{
+    color: red;
+}
+.animate1 .animate-container .an-title .an-title-c ul li span{
+    display: block;
+    width: 283px;
+    height: 59px;
+    padding: 0 10px;
+    color: #fff;
+    line-height: 29px;
+    font-size: 14px;
+    position: absolute;
+    top: -31px;
+    left: -68px;
+    text-align: center;
+}
+.animate1 .animate-container .an-title .an-title-c ul li .spanbg1{
+    background: url(../image/animate-9.png) no-repeat;
+}
+.animate1 .animate-container .an-title .an-title-c ul li .spanbg2{
+    background: url(../image/animate-10.png) no-repeat;
+    display: none;
+}
+.animate1 .animate-container .an-title .an-title-c ul li .spanbg3{
+    background: url(../image/animate-11.png) no-repeat;
+    display: none;
+}
+.animate1 .animate-container .an-title .an-title-c ul li span i{
+    color: #eceaea;
+    font-style: normal;
+}
+.animate1 .animate-container .an-item{
+    padding-left: 78px;
+    overflow: hidden;
+}
+.animate1 .animate-container .an-item dl{
+    width: 248px;
+    height: 297px;
+    border: 1px solid #ddd;
+    background: #fbfbfb;
+    margin-left: 24px;
+    margin-top: 20px;
+    float: left;
+}
+.animate1 .animate-container .an-item dl dt{
+    width: 248px;
+    height: 171px;
+    padding-top:20px;
+    background: #fff;
+}
+.animate1 .animate-container .an-item dl dt a img{
+    width: 220px;
+    height: 160px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    display: block;
+}
+.animate1 .animate-container .an-item dl dt a:hover img{
+    border: 1px solid red;
+}
+.animate1 .animate-container .an-item dl dd{
+
+}
+.animate1 .animate-container .an-item dl dd .main{
+    width: 221px;
+    height: 85px;
+    margin: 7px 0 0 13px;
+}
+.animate1 .animate-container .an-item dl dd .main .tit{
+    height: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+    color: #000;
+}
+.animate1 .animate-container .an-item dl dd .main .tit a{
+
+}
+.animate1 .animate-container .an-item dl dd .main .tit img{
+    margin-left:6px;
+}
+.animate1 .animate-container .an-item dl dd .main .txt {
+    height: 33px;
+    margin: 3px 0;
+    color: #999;
+    overflow: hidden;
+}
+.animate1 .animate-container .an-item dl dd .main .more {
+    display: block;
+    width: 59px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    color: #fff;
+    font-size: 10px;
+    margin-top:8px;
+    background: url(../image/animate-morebg.jpg) no-repeat;
+}
+.page{
+    padding-top: 30px;
+    line-height: 24px;
+    text-align: center;
+    clear: left;
+}
+.page span,.page a{
+    padding: 0px 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.page span:hover,.page a:hover{
+    color: red;
+    border: 1px solid red;
+}
+.page .cur{
+    color: red;
+    border: 1px solid red;
+}

@@ -1,0 +1,83 @@
+.contact{
+    width: 100%;
+    height: 878px;
+    background: url(../image/contant-1.jpg) center top no-repeat;
+}
+.contact .contact-container{
+    width: 1000px;
+    height: 527px;
+    margin: 0 auto;
+    position: relative;
+}
+.contact .contact-container .contact-left{
+    width: 442px;
+    height: 427px;
+    padding: 99px 0 0 82px;
+    position: absolute;
+    top: 167px;
+    left: 0;
+    background: url(../image/contact-2.png) no-repeat;
+ }
+.contact .contact-container .contact-left h2{
+    font: normal 30px/100% '微软雅黑';
+    color: #fff;
+ }
+.contact .contact-container .contact-left h2 strong{
+    font-weight:normal;
+    margin-bottom:10px;
+    display: block;
+ }
+.contact .contact-container .contact-left h2 i{
+    text-transform: uppercase;
+    font: normal 11px 'arial';
+    margin-bottom: 24px;
+ }
+.contact .contact-container .contact-left h3{
+    display: block;
+    font: normal 60px/64px 'arial';
+    margin-bottom: 18px;
+    color: #fff;
+    margin-top: 29px;
+ }
+.contact .contact-container .contact-left p {
+    font-size:15px;
+    color: #fff;
+    padding:10px;
+
+ }
+.contact .contact-container .contact-right{
+    width: 442px;
+    height: 427px;
+    padding: 99px 0 0 82px;
+    position: absolute;
+    top: 167px;
+    right: 0;
+    background: url(../image/contact-3.png) no-repeat;
+ }
+.contact .contact-container .contact-right input[type="text"],
+.contact .contact-container .contact-right textarea{
+    border: 1px solid #d4f1f7;
+    font: normal 14px 'arial';
+    color: #fff;
+    background: none;
+    width: 350px;
+    padding: 11px 10px;
+    margin-bottom: 10px;
+    outline: none;
+ }
+.contact .contact-container .contact-right textarea{
+    height: 60px;
+    width: 328px;
+    padding: 11px 10px;
+}
+.contact .contact-container .contact-right input[type="button"]{
+    border: none;
+    outline: none;
+    background: #a4c552;
+    padding: 0px 10px;
+    width: 350px;
+    height: 36px;
+    margin-top: 10px;
+    font: normal 14px 'arial';
+    color: #fff;
+}

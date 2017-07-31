@@ -1,0 +1,124 @@
+.recruit{
+    width: 1000px;
+    margin:0 auto;
+    margin-top:100px;
+}
+.recruit-dis{
+    height: 317px;
+    overflow: hidden;
+}
+.recruit-dis img{
+    float: left;
+}
+.recruit-dis .txt{
+    float: right;
+    width: 346px;
+
+}
+.recruit-dis .txt h4{
+    font-size: 16px;
+    color: #817c7c;
+    line-height: 23px;
+    padding:10px 0;
+    padding-left:20px;
+}
+.recruit-dis .txt p{
+    color: #d2cece;
+    line-height: 16px;
+    padding-left:20px;
+}
+.recruit-dis .txt img{
+    margin-top:15px;
+}
+.zhaopin{
+    margin-top:30px;
+}
+.zhaopin .zhaopin-container{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px dashed #000;
+}
+.zhaopin .zhaopin-container .tab-left{
+    float: left;
+    width: 100px;
+}
+.zhaopin .zhaopin-container .tab-left ul{
+
+}
+.zhaopin .zhaopin-container .tab-left ul li{
+    height:50px;
+    line-height: 50px;
+    background-color: #999;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.zhaopin .zhaopin-container .tab-left ul li.cur{
+    background-color: #66a7f6;
+}
+.zhaopin .zhaopin-container .tab-left ul li a{
+    color: #fff;
+}
+.zhaopin .zhaopin-container .tab-right{
+    float: left;
+}
+.zhaopin .zhaopin-container .tab-right h2{
+    height:50px;
+    line-height: 50px;
+    background-color: #90e111;
+    color: #fff;
+    width: 100px;
+    text-align: center;
+    font-size:14px;
+}
+.zhaopin .zhaopin-container .tab-right #page-box{
+    width: 700px;
+    margin: 25px auto;
+    text-align: center;
+}
+.zhaopin .zhaopin-container .tab-right #page-box a,
+.zhaopin .zhaopin-container .tab-right #page-box span {
+    padding: 0px 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.zhaopin .zhaopin-container .tab-right #page-box a{
+    display: inline-block;
+}
+.zhaopin .zhaopin-container .tab-right #page-box a:hover{
+    border:1px solid red;
+    color: red;
+}
+.zhaopin .zhaopin-container .tab-right #page-box .curr{
+    color: red;
+}
+.zhaopin .zhaopin-container .tab-right #pages{
+    display: inline-block;
+}
+#info .item{
+    width: 670px;
+    margin: 10px auto 10px;
+    padding: 5px 5px 10px 0 ;
+    border-bottom: 1px dashed #ccc;
+}
+#info .item .title{
+
+}
+#info .item .title span{
+    padding: 5px 0 5px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+}
+#info .item .dis{
+    padding: 2px 0 2px 5px;
+    color: #666;
+    margin:10px 0;
+}
+#info .item .dis a{
+    font-size: 12px;
+    padding: 10px;
+    color: #328fbe;
+}

@@ -1,0 +1,122 @@
+.host-banner{
+    width: 100%;
+    height: 593px;
+    background: url(../image/hostbanner.jpg) no-repeat center top;
+}
+.host{
+    width: 100%;
+    margin-top:28px;
+}
+.host-wrap{
+    width:1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.host-wrap .host-left{
+    width: 693px;
+    float: left;
+}
+.host-wrap .host-left .tab-title{
+    width: 660px;
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 3px solid #f76ca8;
+    margin-bottom: 10px;
+}
+.host-wrap .host-left .tab-title span{
+    display: block;
+    width: 100px;
+    height:33px;
+    line-height: 33px;
+    text-align: center;
+    font-size:16px;
+    color: #6b6b6b;
+    float: left;
+    margin: 0 8px;
+    cursor: pointer;
+
+}
+.host-wrap .host-left .tab-title span.curr{
+    background-color:#f76ca8;
+    color: #fff;
+}
+.host-wrap .host-left .item{
+    display: none;
+}
+.host-wrap .host-left .show{
+    display: block;
+}
+.host-wrap .host-left .item  ul li{
+    float: left;
+    width: 201px;
+    height: 280px;
+    padding: 4px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    background: url(../image/host-3.png) no-repeat;
+    position: relative;
+}
+
+.host-wrap .host-left .item  ul li p{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 191px;
+    height: 200px;
+    padding-top: 70px;
+    text-align: center;
+    color: #fff;
+    background: url(../image/host-bg.png) no-repeat;
+    line-height: 21px;
+    display: none;
+}
+.host-wrap .host-left .item  ul li p .more{
+    display: block;
+    width: 93px;
+    height: 31px;
+    line-height: 31px;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 10px auto 0;
+}
+.host-wrap .host-left .item  ul li p .more:hover{
+    color: red;
+    border: 1px solid red;
+}
+.host-wrap .host-right{
+    width: 290px;
+    float: right;
+    padding-top:45px;
+}
+.host-wrap .host-right img{
+    margin-bottom:15px;
+}
+.host-bg1{
+    width: 100%;
+    height: 505px;
+    margin-top: 72px;
+    background: url(../image/host-7.jpg) center top no-repeat;
+    overflow: hidden;
+}
+.host-bg2{
+    width: 100%;
+    height: 505px;
+    background: url(../image/host-8.jpg) center top no-repeat;
+    margin-top:0;
+}
+.host-bg2 .txt{
+    width:1000px;
+    margin: 0 auto;
+}
+.host-bg2 .txt p{
+    padding-top: 15px;
+    width: 340px;
+    margin: 0 auto;
+    line-height: 21px;
+    font-size: 14px;
+    color: #a9a4a5;
+}
+.host-bg2 .txt p strong{
+    color: #797172;
+    font-weight:normal;
+}

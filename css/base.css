@@ -1,0 +1,66 @@
+/*基础部分*/
+html {
+    font-family: PingFangSC-Light, 'helvetica neue', 'hiragino sans gb', tahoma, 'microsoft yahei ui', 'microsoft yahei', simsun, sans-serif;
+    font-size: 14px;
+    bottom: 0;
+    margin: 0;
+}
+body, button, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, hr, input, li, ol, p, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+em, i {
+    font-style: normal;
+    font-weight: 400;
+}
+button, input, select, textarea {
+    font-family: PingFangSC-Light, 'STHeiti Light', 'helvetica neue', 'hiragino sans gb', tahoma, 'microsoft yahei ui', 'microsoft yahei', simsun, sans-serif
+}
+button, input, select {
+    box-sizing: border-box;
+    border:none;
+}
+button {
+    border: none;
+}
+button, input[type=submit], input[type=button], select {
+    cursor: pointer;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+ul,li {
+    list-style: none
+}
+a img, fieldset, iframe, img {
+    border-width: 0;
+    border-style: none;
+    vertical-align: middle;
+}
+a:link{
+    text-decoration: none;
+    color: #666;
+}
+a:visited{
+    color: #666;
+}
+body{
+    color: #333;
+    font-size:12px;
+    background-color: #fff;
+    font-family: "微软雅黑", Georgia, "Times New Roman", Times, serif, "宋体";
+}
+.cl{
+    clear: both;
+    height: 0;
+    font-size:0;
+    line-height: 0;
+}
+.clearfix{
+    zoom: 1;
+}

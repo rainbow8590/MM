@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>美美互动联系我们</title>
+    <link rel="stylesheet" type="text/css" href="lib/font-awesome-4.6.3/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <style type="text/css">
+        html,body{margin:0;padding:0;}
+        .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+        .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+        .bottom {  margin-top: 0px;  text-align: center;}
+    </style>
+    <script src="lib/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+
+</head>
+<body >
+<!--导航-->
+<div class="nav-wrap">
+    <div class="nav">
+        <h3>
+            <a href="index.html">
+                <img src="image/mm-logo.png" alt="">
+            </a>
+        </h3>
+        <div class="nav-list">
+            <ul id="navList">
+                <li>
+                    <a href="index.html">
+                        <span>首页</span>
+                        <i>Home</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        <span>关于美美</span>
+                        <i>About</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="game.html">
+                        <span>美美游戏</span>
+                        <i>Game</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="host.html">
+                        <span>美媚主播</span>
+                        <i>Host</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="animation.html">
+                        <span>原创动画</span>
+                        <i>Animation</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="recruiting.html">
+                        <span>招纳贤士</span>
+                        <i>Recruiting</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <span>联系我们</span>
+                        <i>contact</i>
+                    </a>
+                </li>
+            </ul>
+            <div class="nav-line" id="navLine">
+            </div>
+        </div>
+    </div>
+</div>
+<!--内容部分-->
+<div class="about-wrap">
+   <div class="contact">
+        <div class="contact-container">
+            <div class="contact-left">
+                <h2>
+                    <strong>长沙美美互动科技有限公司</strong>
+                    <i>Changsha meimei interactive technology co., LTD</i>			</h2>
+                <h3>400-1234-567</h3>
+                <p><i class="fa fa-tty"></i>总机：0731-85072945/0731-85072945</p>
+                <p><i class="fa fa-print"></i>传真：0731-85072945</p>
+                <p><i class="fa fa-home"></i>地址：长沙市望城区铺瑞大道</p>
+                <p><i class="fa fa-envelope"></i>000000</p>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input class="input" type="text" value="姓名">
+                    <input class="input" type="text" value="公司名称">
+                    <input class="input" type="text" value="联系电话">
+                    <input class="input" type="text" value="邮箱">
+                    <textarea class="input" >留言</textarea>
+                    <input type="button" value="提交">
+                </form>
+            </div>
+        </div>
+   </div>
+    <div style="width:100%;height:650px;" id="dituContent"></div>
+    <script type="text/javascript">
+        //创建和初始化地图函数：
+        function initMap(){
+            createMap();//创建地图
+            setMapEvent();//设置地图事件
+            addMapControl();//向地图添加控件
+            addMarker();//向地图中添加marker
+        }
+
+        //创建地图函数：
+        function createMap(){
+            var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+            var point = new BMap.Point(112.881967,28.299846);//定义一个中心点坐标
+            map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
+            window.map = map;//将map变量存储在全局
+        }
+
+        //地图事件设置函数：
+        function setMapEvent(){
+            map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+            map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+            map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+            map.enableKeyboard();//启用键盘上下左右键移动地图
+        }
+
+        //地图控件添加函数：
+        function addMapControl(){
+            //向地图中添加缩放控件
+            var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+            map.addControl(ctrl_nav);
+            //向地图中添加缩略图控件
+            var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+            map.addControl(ctrl_ove);
+            //向地图中添加比例尺控件
+            var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+            map.addControl(ctrl_sca);
+        }
+
+        //标注点数组
+        var markerArr = [{title:"长沙市美美互动科技有限公司",content:"长沙市",point:"112.878885|28.299862",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+        ];
+        //创建marker
+        function addMarker(){
+            for(var i=0;i<markerArr.length;i++){
+                var json = markerArr[i];
+                var p0 = json.point.split("|")[0];
+                var p1 = json.point.split("|")[1];
+                var point = new BMap.Point(p0,p1);
+                var iconImg = createIcon(json.icon);
+                var marker = new BMap.Marker(point,{icon:iconImg});
+                var iw = createInfoWindow(i);
+                var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+                marker.setLabel(label);
+                map.addOverlay(marker);
+                label.setStyle({
+                    borderColor:"#808080",
+                    color:"#333",
+                    cursor:"pointer"
+                });
+
+                (function(){
+                    var index = i;
+                    var _iw = createInfoWindow(i);
+                    var _marker = marker;
+                    _marker.addEventListener("click",function(){
+                        this.openInfoWindow(_iw);
+                    });
+                    _iw.addEventListener("open",function(){
+                        _marker.getLabel().hide();
+                    })
+                    _iw.addEventListener("close",function(){
+                        _marker.getLabel().show();
+                    })
+                    label.addEventListener("click",function(){
+                        _marker.openInfoWindow(_iw);
+                    })
+                    if(!!json.isOpen){
+                        label.hide();
+                        _marker.openInfoWindow(_iw);
+                    }
+                })()
+            }
+        }
+        //创建InfoWindow
+        function createInfoWindow(i){
+            var json = markerArr[i];
+            var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+            return iw;
+        }
+        //创建一个Icon
+        function createIcon(json){
+            var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+            return icon;
+        }
+
+        initMap();//创建和初始化地图
+    </script>
+
+</div>
+
+<!--foot-->
+<div class="footer">
+        <div class="footer-container">
+            <div class="footer-nav">
+                <a href="index.html">首页</a>&nbsp;|&nbsp;
+                <a href="">关于美美</a>&nbsp;|&nbsp;
+                <a href="">美美游戏</a>&nbsp;|&nbsp;
+                <a href="">美媚主播</a>&nbsp;|&nbsp;
+                <a href="">原创动画</a>&nbsp;|&nbsp;
+                <a href="">招贤纳士</a>&nbsp;|&nbsp;
+                <a href="">联系我们</a>
+            </div>
+            <p>健康游戏公告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+            <p>禁止任何利用本平台游戏进行赌博的行为，让我们共同净化游戏环境，一旦发现有违反用户协议的行为，我们将立即封杀账号！</p>
+            <p>版权所有：长沙市美美游戏科技有限公司 粤ICP备13046049号-1</p>
+        </div>
+    </div>
+
+</body>
+
+<script src="script/nav.js"></script>
+<script src="script/contact.js"></script>
+
+</html>

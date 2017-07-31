@@ -1,0 +1,255 @@
+
+.game1{
+    width: 100%;
+}
+.game1 .game1-wrap{
+    width: 100%;
+    height: 1064px;
+    background: url(../image/game-bg.jpg) center no-repeat;
+}
+.game1 .game1-wrap .game1-container{
+    width: 600px;
+    margin:0 auto;
+    position: relative;
+    text-align: center;
+    padding-top: 82px;
+}
+.game1 .game1-wrap .game1-container .game-txt{
+    position: relative;
+    top:0;
+    left:-60px;
+    color: #66ae1c;
+    line-height: 21px;
+    margin: 15px auto 0;
+    width: 410px;
+    text-align: left;
+}
+.game1 .game1-wrap .game1-container .pic1{
+    position: relative;
+    top: -50px;
+    left:0;
+}
+.game1 .game1-wrap .game1-container .pic2{
+    position: relative;
+    top: 0px;
+    right:-70px
+}
+.game1 .game1-wrap .game1-container .pic3{
+    margin-top: 30px;
+    position: relative;
+    top: -30px;
+    right:5px;
+}
+.game1 .game1-wrap .game1-container .game-btns a{
+    float: left;
+    display: block;
+    margin: 60px 0 0 80px;
+}
+.game1 .game1-wrap .game1-container .game-btns a .pc-btn{
+    position: relative;
+    left: -30px;
+    top: -5px;
+}
+.game1 .game1-wrap .game1-container .game-btns a .mb-btn{
+    position: relative;
+    left: 100px;
+    top: -5px;
+}
+.game2{
+    margin-top:55px;
+}
+.game2-wrap{
+    width: 100%;
+    height: 783px;
+    background: url(../image/game-6.jpg) top center no-repeat;
+    overflow: hidden;
+}
+.game2-wrap .mmddz{
+    text-align: center;
+    width: 461px;
+    height: 187px;
+    margin: 43px auto 0;
+    display: block;
+    position: relative;
+    bottom:-30px;
+    right: 30px;
+}
+.game2-wrap .game-imgs{
+    width: 800px;
+    height: 300px;
+    margin:0 auto;
+    margin-top: 243px;
+    position: relative;
+}
+.game2-wrap .game-imgs .imgs-box{
+    width: 529px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+.game2-wrap .game-imgs .imgs-box .imgs{
+    width: 529px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.game2-wrap .game-imgs .imgs-box .imgs ul{
+    position: relative;
+    width: 529px;
+    height: 300px;
+}
+.game2-wrap .game-imgs .imgs-box .imgs ul li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 529px;
+    height: 300px;
+}
+.game2-wrap .game-imgs .imgs-box .imgs ul li img{
+    width: 529px;
+    height: 300px;
+}
+.game2-wrap .game-imgs .imgs-box .imgs #ol1{
+    position: absolute;
+    bottom: 10px;
+    z-index: 100;
+    left: 45%;
+}
+.game2-wrap .game-imgs .imgs-box .imgs #ol1 li{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #ccc;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+.game2-wrap .game-imgs .imgs-box .imgs #ol1 .cur{
+    background: darkred;
+}
+.game3{
+    width: 100%;
+}
+.game3-wrap{
+    width: 1000px;
+    margin:0 auto;
+    margin-top:40px;
+    overflow: hidden;
+}
+.game3 .game3-wrap dl{
+    width: 176px;
+    margin: 0 10px;
+    float: left;
+}
+.game3 .game3-wrap dl dt{
+    width: 196px;
+    height: 166px;
+    position: relative;
+}
+.game3 .game3-wrap dl dt img{
+    width: 0;
+    transition: 1s;
+}
+.game3 .game3-wrap dl dd{
+    width: 176px;
+    height: 43px;
+    margin-top: 2px;
+}
+.game4{
+    width:100%;
+    margin-top:100px;
+    border-top:1px solid #dcdcdc;
+}
+.game4-wrap{
+    width: 1000px;
+    margin:0 auto;
+}
+.game4-wrap .arrow-icon{
+    text-align: center;
+    margin-top: 1px;
+    position: relative;
+}
+.game4-wrap .game4-pics1{
+    margin: 78px auto 30px;
+    height: 80px;
+    width: 760px;
+    position: relative;
+}
+.game4-wrap .game4-pics1 .img1{
+    float: left;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: -60px;
+}
+.game4-wrap .game4-pics1 .img2{
+    position: relative;
+    z-index: 9999;
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+.game4-wrap .game4-pics2 {
+    margin: 19px auto 0;
+    position: relative;
+}
+.game4-wrap .game4-pics2 .img3{
+    position: relative;
+    top: 0;
+    left:-80px
+}
+.game4-wrap .game4-pics2 .img4{
+    position: relative;
+    top: 100px;
+    left:0;
+}
+.game4-wrap .game4-pics2 .img5{
+    position: relative;
+    top: 0px;
+    left:100px
+}
+.game4-wrap .game-btn{
+    margin: 74px auto 0;
+    text-align: center;
+}
+.game4-wrap .game-btn a{
+}
+.game4-wrap .game-btn a:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.game4-wrap .game-btn a img{
+    position: relative;
+    top: 60px;
+    left: 0;
+}
+.er{
+    background: url(../image/game-er.png) repeat;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+.er .er-wrap{
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+.er .er-wrap .close{
+    display: block;
+    width: 14px;
+    height: 15px;
+    background: url(../image/game-cl.png) no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
